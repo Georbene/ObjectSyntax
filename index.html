@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var student = {
+          name:'Adewale',
+          age: 16,
+          sex: 'male',
+      }
+      student.course = "SE"
+
+      console.log(student);
+      console.log(student.age);
+      console.log(student['age']);
+
+      var favAnimal ={
+          name: 'puppy',
+          age: 5,
+          color: 'white' ,
+        }
+        favAnimal.eye = "Green"
+        favAnimal.leg = "four"
+        console.log(favAnimal);
+        var favouriteAnimal = {
+             name: 'Ijaya',
+             botName: 'panthera Leo',
+             phylum: 'Cloud white',
+             threathen(){
+                console.log(`${favouriteAnimal.name} will bark and growl at stranger`);
+             }
+        }
+
+        favouriteAnimal.color = 'Smoke white'
+        favouriteAnimal.threathen()
+        console.log(favouriteAnimal.name);
+        </script>
+  </body>
+</html>
